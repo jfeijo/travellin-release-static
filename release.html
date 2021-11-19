@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travellin' Duo Release</title>
+    <style>*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat','sans-serif';
+    }
+section {
+background-color: #FFE072;
+    display: grid;
+    grid-template-columns: 60rem;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    "banner"
+    "title"
+    "info";
+    padding: 5rem 52vw;
+}
+@media screen and (max-width: 500px){
+section {
+background-color: #FFE072;
+    display: grid;
+    grid-template-columns: 20rem;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    "banner"
+    "title"
+    "info";
+    padding: 5rem;
+    padding-bottom: 12rem;
+}
+iframe {
+margin-left: -9.5rem;
+overflow:auto;
+transform: scale(0.5);
+}
+section{
+  padding-bottom: 20rem;
+}
+.sectiontwo{
+background-color: #141313;
+color: whitesmoke;
+
+}
+.dupla{
+display:grid;
+
+transform: translate(-7rem,-12rem) scale(0.8);
+margin-bottom: -8rem;
+}
+}
+.banner{
+grid-area: banner;
+max-width: 50rem;
+box-sizing: border-box;
+align-items: stretch;
+}
+h1{
+font-weight: 500;
+grid-area: title;
+padding:1rem 0;
+font-size: 45px;
+width: 60%;
+display: inline-block;
+/* padding-bottom: 4rem; */
+}
+h1 strong{
+font-weight: 700;
+}
+h3{
+grid-area: info;
+font-weight: 300;
+width: 80%;
+}
+a{
+;
+padding-left: 2rem;
+text-decoration: none;   
+color:whitesmoke;
+font-weight: 500;
+}
+.sectiontwo{
+background-color: #141313;
+color: whitesmoke;
+}
+.logo {
+position: relative;
+padding-top: 1rem;
+z-index: 100;
+margin-left: -10;
+/* transform: scale(0.7); */
+}
+.dupla{
+margin-top: -21rem;
+margin-bottom: -13rem;
+margin-left: -10rem;
+clip-path: inset(23% 0 21% 0);
+}
+#youtube{
+font-weight: 400;
+color: white;
+padding: 2rem;
+border-radius: 30px;
+background-color:#141313;
+border: 2px solid #141313;
+border-radius: 15px;
+}
+.footer{
+text-align: left;
+margin-left: 2rem;
+font-weight: 300;
+}
+iframe {
+/* margin-left: 2rem; */
+}</style>
+<section>
+<div>
+<h1>Olá, somos a 
+  <strong>Travellin' Duo</strong>!
+</h1>
+<img class="logo" src="https://i.postimg.cc/SnMLTpXd/Travellin-Duo-Logo.png" alt="">
+</div>
+<div class="paraOne">
+<h3>É um prazer conhecer você! Se você está lendo este material é porque provavelmente quer conhecer um pouco mais sobre nós, não é mesmo? Então vamos nessa!</h3>
+</div>
+<div class="paraTwo">
+<h3>
+  <strong>Somos um casal unido pelo amor e pela música</strong>, nosso projeto foi oficialmente criado em 2019, mas já tocamos/cantamos juntos desde 2011.
+</h3>
+</div>
+</section>
+<section class="sectiontwo">
+<h3>Nossos estilos favoritos são 
+<strong>rock, folk, country e pop</strong>. mas não pense que isso nos limita, 
+<em>pelo contrário</em>, nosso maior prazer é satisfazer o público, atender seus pedidos entregar a melhor experiência possível para quem está nos assistindo!
+<br>
+<br>Portanto, passeamos tranquilamente por estilos como Clássicos dos anos 70 e 80, Rock Gaúcho, MPB e Reggae Music.
+</h3>
+<img class="dupla" src="https://i.postimg.cc/3JFSPj6J/2.png" alt="travellin duo foto">
+</section>
+<section>
+<div id="youtube">
+<h1>Confira nosso canal no YouTube!</h1>
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/XYWFtCiyupc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</section>
+<section class="sectiontwo">
+<p class="footer">siga-nos nas redes sociais! 
+<a href="http://instagram.com/travellinduoband">instagram</a> 
+<a href="http://facebook.com/travellinduoband">facebook</a>
+</p>
+</section>
+
+</body>
+</html>
