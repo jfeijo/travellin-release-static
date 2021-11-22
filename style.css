@@ -12,7 +12,7 @@ body {
 }
 
 section {
-background-color: #FFE072;
+background-color: #f8fa70;
 display: grid;
 grid-template-columns: 60rem;
 justify-content: center;
@@ -27,7 +27,7 @@ padding: 5rem 52vw;
 @media screen and (max-width: 500px){
 
     section {
-background-color: #FFE072;
+background-color: #f8fa70;
 display: grid;
 grid-template-columns: 20rem;
 justify-content: center;
