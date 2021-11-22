@@ -23,8 +23,55 @@ grid-template-areas:
 "info";
 padding: 5rem 52vw;
 }
+.hello{
+    /* transform: translate(10px, 10px); */
+    transform: translate(0px, -1.5em);
+    width: 70%;
+}
 
+#youtube{
+    font-weight: 400;
+    color: white;
+    padding: 2rem;
+    margin-right: 20rem;
+    border-radius: 30px;
+    background-color:#141313;
+    border: 2px solid #141313;
+    border-radius: 15px;
+        overflow: hidden;
+    }
+
+   
 @media screen and (max-width: 500px){
+    #youtube{
+        margin-right: 0rem;
+        padding-bottom: -1rem;
+    }
+    
+    .hello{
+        transform: translate(0px, 3.2em);
+        width: 70%;
+        line-height: 48px;
+        margin-bottom: -2rem;
+    }
+    
+    body > section:nth-child(4){
+        height:200px;
+        padding-top:5rem;
+    }
+
+    .logo{
+        background: url(./images/Sem\ Título-2.png) no-repeat;
+background-size: contain;
+filter: invert(0%) sepia(5%) saturate(7500%) hue-rotate(261deg) brightness(0%) contrast(110%);
+display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 180px; /* Width of new image */
+  height: 236px; /* Height of new image */
+  padding-left: 100%; /* Equal to width of new image */
+  transform: translate(-6.3rem, -15rem) scale(0.4);
+    }
 
     section {
 background-color: #f8fa70;
@@ -49,7 +96,10 @@ transform: scale(0.5);
     section{
 padding-bottom: 20rem;
 }
-
+.hello.h1{
+    transform: translate(0px, 1.4000000000000004em);
+    width: 70%;
+}
     .sectiontwo{
 background-color: #141313;
 color: whitesmoke;
@@ -59,7 +109,7 @@ color: whitesmoke;
     .dupla{
 display:grid;
 overflow: hidden;
-transform: translate(-7rem,-12rem) scale(0.8);
+transform: translate(-6rem,-13rem) scale(0.8);
 margin-bottom: -8rem;
 }
 }
@@ -69,6 +119,7 @@ max-width: 50rem;
 box-sizing: border-box;
 align-items: stretch;
 }
+
 h1{
 font-weight: 500;
 line-height: 40px;
@@ -88,8 +139,7 @@ font-weight: 300;
 width: 80%;
 }
 a{
-;
-padding-left: 2rem;
+    padding-right: 1rem;
 text-decoration: none;   
 color:whitesmoke;
 font-weight: 500;
@@ -103,7 +153,7 @@ position: relative;
 padding-top: 1rem;
 z-index: 100;
 margin-left: -10;
-/* transform: scale(0.7); */
+
 }
 .dupla{
 margin-top: -21rem;
@@ -111,16 +161,7 @@ margin-bottom: -13rem;
 margin-left: -10rem;
 clip-path: inset(23% 0 21% 0);
 }
-#youtube{
-font-weight: 400;
-color: white;
-padding: 2rem;
-border-radius: 30px;
-background-color:#141313;
-border: 2px solid #141313;
-border-radius: 15px;
-    overflow: hidden;
-}
+
 .footer{
 text-align: left;
 margin-left: 2rem;
