@@ -40,9 +40,40 @@ padding: 5rem 52vw;
     border-radius: 15px;
         overflow: hidden;
     }
-
+    button a {
+        color: black;
+        font-weight: 700;
+    }
+    button {
+        background: #FBCA1F;
+        font-family: inherit;
+        padding: 0.6em 1.3em;
+        font-weight: 700;
+        
+        font-size: 18px;
+        border: 3px solid black;
+        border-radius: 0.4em;
+        box-shadow: 0.1em 0.1em;
+       }
+       
+       button:hover {
+        transform: translate(-0.05em, -0.05em);
+        box-shadow: 0.15em 0.15em;
+       }
+       
+       button:active {
+        transform: translate(0.05em, 0.05em);
+        box-shadow: 0.05em 0.05em;
+       }
    
-@media screen and (max-width: 500px){
+@media screen and (max-width: 970px){
+    br{
+        height: 1rem;
+    }
+    body > section:nth-child(4){
+        padding-bottom:2rem;
+    }
+
     #youtube{
         margin-right: 0rem;
         padding-bottom: -1rem;
@@ -134,10 +165,66 @@ h1 strong{
 font-weight: 700;
 }
 h3{
+    line-height: 30px;
 grid-area: info;
 font-weight: 300;
-width: 80%;
+width: 83%;
 }
+.loveandmusic{
+    margin-bottom: 2rem;
+}
+strong.musicstyle{
+    color: #111111;
+    width:180%;
+    
+
+}
+h3 strong{
+    width:100%;
+font-size: 45px;
+line-height: normal;
+  /* color: #f8fa70; */
+  
+  
+  padding: 0 2rem;
+  
+  position: relative;
+  width: 350px;
+  height: 550px;
+  background: rgb(240, 238, 227);
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  /* color: white; */
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+  /* text-shadow:
+    0 1px 0px #161616,
+    1px 0 0px #ebc95b,
+    1px 2px 1px #161616,
+    2px 1px 1px #ebc95b,
+    2px 3px 2px #161616,
+    3px 2px 2px #ebc95b,
+    3px 4px 2px #161616,
+    4px 3px 3px #ebc95b,
+    4px 5px 3px #161616,
+    5px 4px 2px #ebc95b,
+    5px 6px 2px #161616,
+    6px 5px 2px #ebc95b,
+    6px 7px 1px #161616,
+    7px 6px 1px #ebc95b,
+    7px 8px 0px #161616,
+    8px 7px 0px #ebc95b; */
+}
+
+h3 strong:hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+h3 strong.musicstyle:hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(241, 235, 119, 0.716);
+}
+
 a{
     padding-right: 1rem;
 text-decoration: none;   
@@ -169,4 +256,20 @@ font-weight: 300;
 }
 iframe {
 /* margin-left: 2rem; */
+}
+
+@media screen and (max-width: 420px){
+    .logo{
+        background: url(./images/minilogo10.png) no-repeat;
+background-size: contain;
+filter: invert(0%) sepia(5%) saturate(7500%) hue-rotate(261deg) brightness(0%) contrast(110%);
+display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 180px; /* Width of new image */
+  height: 236px; /* Height of new image */
+  padding-left: 100%; /* Equal to width of new image */
+  transform: translate(-6.3rem, -15rem) scale(0.32);
+    }
+
 }
