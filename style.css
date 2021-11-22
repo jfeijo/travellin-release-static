@@ -15,8 +15,10 @@ grid-template-areas:
 "info";
 padding: 5rem 52vw;
 }
+
 @media screen and (max-width: 500px){
-section {
+
+    section {
 background-color: #FFE072;
 display: grid;
 grid-template-columns: 20rem;
@@ -29,22 +31,26 @@ grid-template-areas:
 padding: 5rem;
 padding-bottom: 12rem;
 }
-iframe {
+
+    iframe {
 margin-left: -9.5rem;
 overflow:auto;
 transform: scale(0.5);
 }
-section{
+
+    section{
 padding-bottom: 20rem;
 }
-.sectiontwo{
+
+    .sectiontwo{
 background-color: #141313;
 color: whitesmoke;
 
 }
-.dupla{
-display:grid;
 
+    .dupla{
+display:grid;
+overflow: hidden;
 transform: translate(-7rem,-12rem) scale(0.8);
 margin-bottom: -8rem;
 }
@@ -105,6 +111,7 @@ border-radius: 30px;
 background-color:#141313;
 border: 2px solid #141313;
 border-radius: 15px;
+    overflow: hidden;
 }
 .footer{
 text-align: left;
