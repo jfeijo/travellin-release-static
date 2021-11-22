@@ -57,6 +57,7 @@ align-items: stretch;
 }
 h1{
 font-weight: 500;
+line-height: 20px;
 grid-area: title;
 padding:1rem 0;
 font-size: 45px;
