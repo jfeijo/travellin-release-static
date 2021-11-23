@@ -10,7 +10,22 @@ html, body {
 body {
   position: relative
 }
-
+h3{
+    z-index: 10 !important;
+}
+.label-white{
+        position:absolute;
+z-index: 0;
+    animation: rotation 50s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 section {
 background-color: #f8fa70;
 display: grid;
@@ -92,13 +107,13 @@ padding: 5rem 52vw;
     }
 
     .logo{
-        background: url(./images/Sem\ Título-2.png) no-repeat;
+        background: url(./images/travellinlogomedio.png) no-repeat;
 background-size: contain;
 filter: invert(0%) sepia(5%) saturate(7500%) hue-rotate(261deg) brightness(0%) contrast(110%);
 display: block;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 180px; /* Width of new image */
+  width: 3rem;
   height: 236px; /* Height of new image */
   padding-left: 100%; /* Equal to width of new image */
   transform: translate(-6.3rem, -15rem) scale(0.4);
@@ -258,8 +273,9 @@ iframe {
 /* margin-left: 2rem; */
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 339px){
     .logo{
+        
         background: url(./images/minilogo10.png) no-repeat;
 background-size: contain;
 filter: invert(0%) sepia(5%) saturate(7500%) hue-rotate(261deg) brightness(0%) contrast(110%);
@@ -269,7 +285,12 @@ display: block;
   width: 180px; /* Width of new image */
   height: 236px; /* Height of new image */
   padding-left: 100%; /* Equal to width of new image */
-  transform: translate(-6.3rem, -15rem) scale(0.32);
+  transform: translate(-4rem, -20rem) scale(0.32);
+    }
+
+    section{
+        padding-left: 6rem;
+        grid-template-columns: 12rem;
     }
 
 }
